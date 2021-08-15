@@ -118,6 +118,7 @@ input{
    
     margin:0.5rem auto 0.5rem;
 }
+
 /* outputbox */
 .outputHere{
   
@@ -149,4 +150,16 @@ input{
 #selection-form{
     /* width: 80%; */
     margin: auto;
+}
+.question{
+    width: 100%;
+    margin:0.5rem auto 0.5rem;
+    border: solid 2px black;
+    border-radius: 0.5rem;
+}
+.score-box{
+    border:solid black 2px;
+    width: 25%;
+    margin:0.5rem auto 0.5rem;
+    border-radius: 0.5rem;
 }

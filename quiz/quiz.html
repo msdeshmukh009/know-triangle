@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take quiz</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <main>
+    <header>
+        <div class="nav">
+            <a class="nav-link" href="../index.html">Triangulastic</a>/<a class="nav-link link-active" href="/">Take quiz</a>
+        </div>
+        <h1>Test your knowledge</h1>
+    </header>
+
+    <form style="width: 80%; margin: auto;">
+        <div class="question">
+            <label  style="display: block;" for="Q">1.Angles 125<sup>0</sup>,25<sup>0</sup>,30<sup>0</sup> makes a triangle. </label>
+            <label for="options"><input  type="radio" value="option1" name="opt1"required>True</label>
+            <label for="options"><input type="radio" value="option2" name="opt1"required>False</label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">2.Angles 145<sup>0</sup>,30<sup>0</sup>,30<sup>0</sup> makes a triangle. </label>
+            <label for="options"><input type="radio" value="option1" name="opt2"required>True</label>
+            <label for="options"><input type="radio" value="option2" name="opt2"required>False</label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">3.If all the internal angles of triangle are 60<sup>0</sup>. Then it is equilateral triangle. </label>
+            <label for="options"><input type="radio" value="option1" name="opt3"required>True</label>
+            <label for="options"><input type="radio" value="option2" name="opt3"required>False</label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">4.Follwing is the example of isosceles triangle. </label>
+            <label for="options"><input type="radio" value="option1" name="opt4"required> ∠A=60<sup>0</sup>,∠B=40<sup>0</sup>, ∠C=80<sup>0</sup></label><br>
+            <label for="options"><input type="radio" value="option2" name="opt4"required>∠A=45<sup>0</sup>,∠B=45<sup>0</sup>, ∠C=90<sup>0</sup></label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">5.Follwing is the example of right angled triangle. </label>
+            <label for="options"><input type="radio" value="option1" name="opt5"required>∠A=60<sup>0</sup>,∠B=30<sup>0</sup>, ∠C=90<sup>0</sup></label><br>
+            <label for="options"><input type="radio" value="option2" name="opt5"required>∠A=60<sup>0</sup>,∠B=80<sup>0</sup>, ∠C=40<sup>0</sup></label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">6.If triangle has two sides with equal length and angle between those sides is 90 <sup>0</sup>.Then what is measure of remaining two angles? </label>
+            <label for="options"><input type="radio" value="option1" name="opt6"required>∠A=60<sup>0</sup>,∠B=30<sup>0</sup></label><br>
+            <label for="options"><input type="radio" value="option2" name="opt6"required>∠A=60<sup>0</sup>,∠B=90<sup>0</sup></label><br>
+            <label for="options"><input type="radio" value="option3" name="opt6"required>∠A=45<sup>0</sup>,∠B=45<sup>0</sup></label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">7.∠A=35<sup>0</sup>,∠B=30,∠c=?<sup>0</sup> </label>
+            <label for="options"><input type="radio" value="option1" name="opt7"required>115<sup>0</sup></label>
+            <label for="options"><input type="radio" value="option2" name="opt7"required>125<sup>0</sup></label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">8.∠A=60<sup>0</sup>,∠B=80<sup>0</sup>, ∠C=40<sup>0</sup> is ___ triangle. </label>
+            <label for="options"><input type="radio" value="option1" name="opt8"required>acute</label>
+            <label for="options"><input type="radio" value="option2" name="opt8"required>obtuse</label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">9.∠A=110<sup>0</sup>,∠B=35<sup>0</sup>, ∠C=35<sup>0</sup>is ___ triangle. </label>
+            <label for="options"><input type="radio" value="option1" name="opt9"required>obtuse</label>
+            <label for="options"><input type="radio" value="option2" name="opt9"required>isosceles</label>
+            <label for="options"><input type="radio" value="option3" name="opt9"required>both</label>
+        </div>
+        <div class="question">
+            <label  style="display: block;" for="Q">10. A scalene triangle has how many sides of equal length? </label>
+            <label for="options"><input type="radio" value="option1" name="opt10"required>2</label>
+            <label for="options"><input type="radio" value="option2" name="opt10"required>3</label>
+            <label for="options"><input type="radio" value="option3" name="opt10"required>none</label>
+        </div>
+        <button  id="button" type="submit">Submit</button>
+    </form>
+    <div class="score-box">Score</div>
+    <footer class="footer">
+        
+        <ul class="list-nobullet">
+            <li class="list-item-inline">
+                <a href="https://github.com/msdeshmukh009" ><img src="../img/github.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://twitter.com/wayiambot"><img src="../img/twitter.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="mailto:deshmukhmahesh009@gmail.com"><img src="../img/gmail.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://www.linkedin.com/in/mahesh-deshmukh-413830185/"><img src="../img/linkedin.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://maheshdeshmukh.netlify.app/"><img src="../img/briefcase.png" border="0"></a>
+            </li>  
+        </ul>
+        </footer>
+    </main>
+    <script src="quiz.js"></script>
+</body>
+</html>
