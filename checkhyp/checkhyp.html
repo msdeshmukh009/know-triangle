@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check hypotenuse</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+    <main>
+        <header>
+            <div class="nav">
+                <a class="nav-link" href="index.html">Triangulastic</a>/<a class="nav-link link-active" href="/">Check hypotenuse</a>
+                </div>
+            <h1>Check hypotenuse</h1>
+        </header>
+      
+        <div >
+            <p class="instruction">Enter the lengths of sides of right angle triangle</p>
+        </div>
+        <form id="input-form">
+            <label for="side-a" class="label">
+                a= 
+                <input class="input" type="number" min="0.0001" step="0.00001"  required>
+            </label>
+            <label for="side-a" class="label">
+                b= 
+                <input class="input" type="number" min="0.0001" step="0.00001"  required>
+            </label>
+           
+            <button type="submit" id="button">Check</button>
+        </form>
+        <div class="outputHere">
+            <div id="isTriangle">C= √(a2+b2)</div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        
+        <ul class="list-nobullet">
+            <li class="list-item-inline">
+                <a href="https://github.com/msdeshmukh009" ><img src="../img/github.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://twitter.com/wayiambot"><img src="../img/twitter.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="mailto:deshmukhmahesh009@gmail.com"><img src="../img/gmail.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://www.linkedin.com/in/mahesh-deshmukh-413830185/"><img src="../img/linkedin.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://maheshdeshmukh.netlify.app/"><img src="../img/briefcase.png" border="0"></a>
+            </li>  
+        </ul>
+    </footer>
+    <script src="checkhyp.js"></script>
     
 </body>
 </html>
