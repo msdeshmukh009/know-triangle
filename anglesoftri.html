@@ -5,22 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angles of triangle</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
-        <div>
-            <a href="/index.html">Go back</a>
+        <header>
+            <div class="nav">
+                <a class="nav-link" href="index.html">Triangulastic</a>/<a class="nav-link link-active" href="/">Angles of triangle</a>
+                </div>
+            <h1>Is it a triangle?</h1>
+        </header>
+      
+        <div >
+            <p class="instruction">Enter the angles in below input boxes and we will tell you if those angles make a Triangle</p>
         </div>
-        <div>
+        <form id="input-form">
             <input class="input" type="number" min="1" max="180" required>
             <input class="input" type="number" min="1" max="180" required>
             <input class="input" type="number" min="1" max="180" required>
-            <button id="button">Check</button>
-        </div>
+            <button type="submit" id="button">Check</button>
+        </form>
         <div class="outputHere">
             <div id="isTriangle">Output will be shown here</div>
         </div>
     </main>
+
+    <footer class="footer">
+        
+        <ul class="list-nobullet">
+            <li class="list-item-inline">
+                <a href="https://github.com/msdeshmukh009" ><img src="img/github.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://twitter.com/wayiambot"><img src="img/twitter.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="mailto:deshmukhmahesh009@gmail.com"><img src="img/gmail.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://www.linkedin.com/in/mahesh-deshmukh-413830185/"><img src="img/linkedin.png" border="0"></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://maheshdeshmukh.netlify.app/"><img src="img/briefcase.png" border="0"></a>
+            </li>  
+        </ul>
+    </footer>
     <script src="anglesoftri.js"></script>
     
 </body>
