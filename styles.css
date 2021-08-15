@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 :root{
-    --back-color:#FFF5AB;
+    --back-color:#BCFFB9;
 
 }
 body{
@@ -49,7 +49,7 @@ main{
 }
 /* footer */
 .footer {
-    padding: 4rem 1rem;
+    padding: 4.5rem 1rem;
     background-color: var(--back-color);
     border-top-right-radius: 1rem;
     color: var(--yellow);
@@ -135,9 +135,9 @@ input{
 }
 
 /* selection-from */
-/* #selection-form{
-   
-} */
+#selection-form{
+   margin-bottom: 1rem;
+}
 .calculation-box{
     width: 50%;
     display: none;
