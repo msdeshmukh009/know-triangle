@@ -31,7 +31,7 @@ document.forms[1].addEventListener("submit",(e)=>{
     var b = Number(options1[0].value);
     var h = Number(options1[1].value);
     
-    output[0].innerText= (b*h)/2
+    output[0].innerText="Area= "+ (b*h)/2
 },false)
 
 
@@ -44,7 +44,7 @@ document.forms[2].addEventListener('submit',(e)=>{
 
     if((a+b)>c && (b+c)>a && (a+c)>b){
     const s=(a+b+c)/2;
-    output[1].innerText= Math.sqrt(s*(s-a)*(s-b)*(s-c)).toFixed(2);
+    output[1].innerText="Area= "+ (Math.sqrt(s*(s-a)*(s-b)*(s-c))).toFixed(2);
     }
     else{
         errorDiv.style.display = "block";
@@ -58,5 +58,5 @@ document.forms[3].addEventListener('submit',(e)=>{
     const c = Number(options3[1].value);
     const A = Number(options3[2].value);
     console.log(b,c,A)
-    output[2].innerText= ((b*c*Math.sin(A*Math.PI/180))/2).toFixed(2);  
+    output[2].innerText="Area= " +((b*c*Math.sin(A*Math.PI/180))/2).toFixed(2);  
 }, false )
