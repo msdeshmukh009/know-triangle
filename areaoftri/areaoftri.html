@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of triangle</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <main>
+            <div class="nav">
+                <a class="nav-link" href="../index.html">Triangulastic</a>/<a class="nav-link link-active" href="/">Area of triangle</a>
+            </div>
+            <h1>Area of triangle</h1>
+        </header>
+        <!-- method selection form -->
+        <form id="selection-form">
+            <div>
+                <label for="option1" class="label">
+                    <input  type="radio" name="method"  >
+                    If you have base and height length   
+                </label>
+            </div>
+            <div>
+                <label for="option2" class="label">
+                    <input type="radio" name="method" >
+                    If you have length of 3 sides   
+                </label>
+            </div>
+            <div>
+                <label for="option3" class="label">
+                    <input type="radio" name="method" >
+                    If you have length of 2 sides and included angle   
+                </label>
+            </div>
+        </form>
+        <!-- area by 1st method -->
+        <div class="calculation-box">
+            <form >
+                <label for="base">
+                    base=
+                    <input class="input-adj  option1"  type="number">
+                    
+                </label><br>
+                <label for="height">
+                    height=
+                    <input class="input-adj option1" type="number">
+                    
+                </label>
+                <button  style="background-color: #FFF5AB; border: solid 1px; border-radius: 0.5rem; display: block;" type="submit">Calculate</button>
+            </form>
+            <div  class="outputDiv"  >Area= 1/2*base*height</div>
+        </div>
+        
+      
+         <!-- area by 2nd method -->
+         <form>
+         <div class="calculation-box">
+            <label for="a">
+                a=
+                <input class="input-adj option2" type="number" required>
+                
+            </label><br>
+            <label for="b">
+                b=
+                <input class="input-adj option2" type="number" required>
+                
+            </label>  <br>  
+            <label for="c">
+                c=
+                <input class="input-adj option2" type="number" required>
+                
+            </label>
+            <p class="error label " style="color: brown;">Enter valid side lengths such that each side length should be less than sum of other two sides</p>
+            <button style="background-color: #FFF5AB; border: solid 1px; border-radius: 0.5rem; display: block;" type="submit">Calculate</button>
+        </form>
+        <div  class="outputDiv" >Area= √(s(s-a)(s-b)(s-c))</div>
+         </div>
+         <!-- area by 3rd method -->
+        <form>
+        <div class="calculation-box">
+            <form >
+                <label for="b">
+                    b= <input class="input-adj option3" type="number" required>  
+                </label><br>
+                <label for="c">
+                    c= <input class="input-adj option3" type="number" required>
+                </label><br>
+                <label for="angA">
+                    ∠A(deg)= <input class="input-adj option3" type="number" required>
+                </label>
+                <button style="background-color: #FFF5AB; border: solid 1px; border-radius: 0.5rem; display: block;" type="submit">Calculate</button>
+            </form>
+            <div  class="outputDiv" >Area= 1/2*b*c*sin(A)</div>
+        </div>
+       
+
+        </main>
+
+        <footer class="footer">
+        
+            <ul class="list-nobullet">
+                <li class="list-item-inline">
+                    <a href="https://github.com/msdeshmukh009" ><img src="../img/github.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="https://twitter.com/wayiambot"><img src="../img/twitter.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="mailto:deshmukhmahesh009@gmail.com"><img src="../img/gmail.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="https://www.linkedin.com/in/mahesh-deshmukh-413830185/"><img src="../img/linkedin.png" border="0"></a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="https://maheshdeshmukh.netlify.app/"><img src="../img/briefcase.png" border="0"></a>
+                </li>  
+            </ul>
+
+        
+        
+    <script src="areaoftri.js"></script>
+</body>
+</html>

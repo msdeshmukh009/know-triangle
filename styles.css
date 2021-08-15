@@ -15,6 +15,7 @@ header{
 /* main */
 main{
     text-align:center ;
+    
 }
 
 
@@ -101,10 +102,13 @@ main{
 input{
     padding: 1rem;
     margin: 1rem 0.75rem 1.5rem 0.5rem;
-    height: 20px;
-    width: 50px;
-    overflow: scroll;
+    height: 10px;
+    width: 250px;
 }
+/* .input-adj{
+    height: 10px;
+    width: 25px;
+} */
 /* button */
 #button{
     background-color: var(--back-color);
@@ -128,4 +132,21 @@ input{
     width: 100%;
     margin: auto;
     padding:0.75rem;
+}
+
+/* selection-from */
+/* #selection-form{
+   
+} */
+.calculation-box{
+    width: 50%;
+    display: none;
+    margin: auto;
+}
+.error{
+    display: none;
+}
+#selection-form{
+    /* width: 80%; */
+    margin: auto;
 }
