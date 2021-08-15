@@ -1,34 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+:root{
+    --back-color:#FFF5AB;
+
+}
 body{
-    background-image: url(img/bg19.jpg);
-    /* background-color: #E3E2E4; */
-    /* background-color: #D8CFBB; */
-     /* background-repeat:no-repeat; */
-    background-position: center;
-    /* background-size: 100% 100%;  */
-    min-height: 100vh;
-    min-width: 100vw;
     margin: 0; 
+    font-family: 'Patrick Hand', cursive;
+}
+/* header */
+header{
+    background-color: var(--back-color);
+    padding: 1rem;
+}
+/* main */
+main{
+    text-align:center ;
+}
+
+
+/* cell */
+
+.cell {
+    text-decoration: none;
+    cursor: pointer;
+    color:black; 
+}
+
+/* lists */
+.main-list {
+    
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align:center;   
+}
+.list-item{
+    margin: auto;
+    margin-top: 1rem;
+    list-style: none;
+    border: solid black 1px;
+    width: 25%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.list-container{
+    margin: 1rem auto 1rem;
     
 }
-.grid{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.cell{
-    background-color: var(--secondary-color);
-    width: 100px;
-    height: 100px;
-    margin: 0.2rem 0.2rem 0.4rem;
-    padding: 1rem;
-
+/* footer */
+.footer {
+    padding: 4rem 1rem;
+    background-color: var(--back-color);
+    border-top-right-radius: 1rem;
+    color: var(--yellow);
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
 
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    color:var(--primary-color);
+.footer-heading {
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul {
+    padding-inline-start: 0px;
+}
+.footer-link {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin:0.5rem 1rem ;
+}
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    margin: 0rem 0.5rem;
 }
