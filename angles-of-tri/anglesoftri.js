@@ -13,7 +13,7 @@ form.addEventListener("submit",(e)=>{
     if(sum===180){
         outputDiv.innerText = "Yup!! this will work."
     }else{
-        outputDiv.innerText = "nahh!! this is not feeling right."
+        outputDiv.innerText = "nahh!! this dose not feel like triangle."
     }
 })
 
