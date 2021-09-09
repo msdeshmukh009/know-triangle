@@ -9,6 +9,7 @@ let score = 0;
 quizForm.addEventListener("submit",(e)=>{
     e.preventDefault();
     const data = new FormData(quizForm);
+    console.log(data)
     let index=0;
     for(let entry of data){
         if(entry[1] == correctChoice[index]){
