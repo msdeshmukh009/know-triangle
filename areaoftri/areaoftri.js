@@ -37,7 +37,7 @@ document.forms[1].addEventListener("submit",(e)=>{
 
 document.forms[2].addEventListener('submit',(e)=>{
     e.preventDefault();
-    // errorDiv.style.display = "none";
+    errorDiv.style.display = "none";
     const a= Number(options2[0].value);
     const b= Number(options2[1].value);
     const c= Number(options2[2].value);
@@ -47,6 +47,7 @@ document.forms[2].addEventListener('submit',(e)=>{
     output[1].innerText="Area= "+ (Math.sqrt(s*(s-a)*(s-b)*(s-c))).toFixed(2);
     }
     else{
+        output[1].innerText="Area="
         errorDiv.style.display = "block";
     }  
     
