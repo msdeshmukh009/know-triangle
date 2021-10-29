@@ -9,9 +9,9 @@ let score = 0;
 quizForm.addEventListener("submit",(e)=>{
     e.preventDefault();
     const data = new FormData(quizForm);
-    console.log(data)
     let index=0;
     for(let entry of data){
+       // console.log(entry)
         if(entry[1] == correctChoice[index]){
          qDiv[index].style.backgroundColor = "lightgreen";
          score++;
